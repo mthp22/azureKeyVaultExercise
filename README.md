@@ -25,8 +25,6 @@ Quiz questions and answers are stored securely in **Azure Key Vault** as secrets
    ```bash
    az keyvault set-policy --name myQuizVault --resource-group myResourceGroup --object-id <principalId> --secret-permissions get list
 
-
-
 **cd key-vault-app and Run**
-npm install
-node server.js
+   npm install
+   node server.js
